@@ -1,0 +1,4 @@
+#!/bin/sh
+
+xterm &
+keepassxc --keyfile /var/keepassxc/db.key /var/keepassxc/db.kdbx

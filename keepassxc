@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/bin/vncserver "$@" -localhost -nolisten tcp
+tail -f /root/.vnc/*.log
